@@ -4,9 +4,9 @@ import { usePathname } from "next/navigation";
 
 const navItems = [
   { href: "/dashboard", label: "Dashboard", icon: "📊" },
-  { href: "/billing", label: "New Bill", icon: "🧾" },
-  { href: "/bills", label: "All Bills", icon: "📋" },
-  { href: "/user-details", label: "Shop Details", icon: "🏪" },
+  { href: "/billing", label: "New invoice", icon: "🧾" },
+  { href: "/bills", label: "All invoice", icon: "📋" },
+  { href: "/user-details", label: "settings", icon: "🏪" },
 ];
 
 interface SidebarProps {
